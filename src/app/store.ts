@@ -1,9 +1,11 @@
 import cakeReducer from '../features/cake/cakeSlice';
 import { configureStore } from '@reduxjs/toolkit';
+import icecreamReducer from '../features/icecream/iceCreamSlice';
 
 const store = configureStore({
   reducer: {
     cake: cakeReducer,
+    icecream: icecreamReducer,
   },
 });
 
