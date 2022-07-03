@@ -1,4 +1,4 @@
-import { ordered, restocked } from './iceCreamSlice';
+import { ordered, restocked } from './icecreamSlice';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 
 import { useState } from 'react';
